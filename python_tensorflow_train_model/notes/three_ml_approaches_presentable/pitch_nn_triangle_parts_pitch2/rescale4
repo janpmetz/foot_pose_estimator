@@ -1,0 +1,341 @@
+/usr/bin/python2.7 /home/jan/pywork/project/final/nn_triangle_parts_pitch_2_RESCALE.py
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcurand.so locally
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties:
+name: GeForce GTX 970
+major: 5 minor: 2 memoryClockRate (GHz) 1.253
+pciBusID 0000:01:00.0
+Total memory: 3.94GiB
+Free memory: 3.62GiB
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:755] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 970, pci bus id: 0000:01:00.0)
+Training...
+Model: models/triangle_nn_triangle_parts_pitch_2_RESCALE/triangle_11_11_14_59.ckpt
+repetition 0
+0 0 0 se train: 1.16416 se test: 2.40893
+('real ', array([ 32.69148176]), 'pred', array([ 23.92825317], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 20.77371597], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.80867195], dtype=float32))
+0 0 1 se train: 4.46887 se test: 2.27267
+('real ', array([ 32.69148176]), 'pred', array([ 23.14413452], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 16.78357315], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.81773758], dtype=float32))
+0 0 2 se train: 1.21182 se test: 2.24169
+('real ', array([ 32.69148176]), 'pred', array([ 22.74451447], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.92054176], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 19.68372726], dtype=float32))
+0 0 3 se train: 1.06542 se test: 2.13362
+('real ', array([ 32.69148176]), 'pred', array([ 31.92977905], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 17.18107414], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 30.56822205], dtype=float32))
+0 0 4 se train: 1.86538 se test: 2.11993
+('real ', array([ 32.69148176]), 'pred', array([ 29.10086441], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 14.38955021], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 29.77847099], dtype=float32))
+0 0 5 se train: 1.15022 se test: 2.12392
+('real ', array([ 32.69148176]), 'pred', array([ 28.57919693], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 15.22066689], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 32.64841461], dtype=float32))
+0 0 6 se train: 1.19173 se test: 2.13184
+('real ', array([ 32.69148176]), 'pred', array([ 28.68190956], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 19.03600693], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 35.63850784], dtype=float32))
+0 0 7 se train: 2.47675 se test: 2.04862
+('real ', array([ 32.69148176]), 'pred', array([ 27.44096565], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 15.34157562], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 27.81330299], dtype=float32))
+0 0 8 se train: 6.63885 se test: 1.98257
+('real ', array([ 32.69148176]), 'pred', array([ 24.78153229], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 13.7290287], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.84177399], dtype=float32))
+0 0 9 se train: 1.35189 se test: 2.02365
+('real ', array([ 32.69148176]), 'pred', array([ 30.53336334], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 15.9987011], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 33.48949814], dtype=float32))
+0 0 10 se train: 1.39493 se test: 1.97783
+('real ', array([ 32.69148176]), 'pred', array([ 31.36707687], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 15.51225948], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 29.98189354], dtype=float32))
+0 0 11 se train: 2.52558 se test: 1.93519
+('real ', array([ 32.69148176]), 'pred', array([ 29.13820076], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 11.91499233], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 27.17821121], dtype=float32))
+0 0 12 se train: 1.26489 se test: 1.91172
+('real ', array([ 32.69148176]), 'pred', array([ 31.94273186], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 11.65934372], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 23.19129372], dtype=float32))
+0 0 13 se train: 1.48152 se test: 1.90565
+('real ', array([ 32.69148176]), 'pred', array([ 33.68228531], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 12.53623104], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 30.07358932], dtype=float32))
+0 0 14 se train: 1.12627 se test: 1.8982
+('real ', array([ 32.69148176]), 'pred', array([ 36.82149506], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 13.68489742], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 30.56242752], dtype=float32))
+0 0 15 se train: 1.4853 se test: 1.87349
+('real ', array([ 32.69148176]), 'pred', array([ 30.6750145], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.32193565], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.51159668], dtype=float32))
+0 0 16 se train: 1.2437 se test: 1.87947
+('real ', array([ 32.69148176]), 'pred', array([ 29.79108238], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 12.33280659], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.58986664], dtype=float32))
+0 0 17 se train: 2.55711 se test: 1.90536
+('real ', array([ 32.69148176]), 'pred', array([ 26.37759209], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 9.29951668], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 20.56240654], dtype=float32))
+0 0 18 se train: 1.2783 se test: 1.90277
+('real ', array([ 32.69148176]), 'pred', array([ 28.88783646], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 12.16747189], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 28.63813782], dtype=float32))
+0 1 0 se train: 0.667417 se test: 1.81725
+('real ', array([ 32.69148176]), 'pred', array([ 32.29615402], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.66391277], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 27.71020508], dtype=float32))
+0 1 1 se train: 4.19007 se test: 1.81784
+('real ', array([ 32.69148176]), 'pred', array([ 26.95753098], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.09366131], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.60543251], dtype=float32))
+0 1 2 se train: 0.971254 se test: 1.85228
+('real ', array([ 32.69148176]), 'pred', array([ 27.60873795], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.98379898], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 22.71325111], dtype=float32))
+0 1 3 se train: 1.0139 se test: 1.82662
+('real ', array([ 32.69148176]), 'pred', array([ 36.21007919], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 16.26282501], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 32.42118073], dtype=float32))
+0 1 4 se train: 1.62452 se test: 1.83343
+('real ', array([ 32.69148176]), 'pred', array([ 30.34496689], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.20462322], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 24.62503624], dtype=float32))
+0 1 5 se train: 0.847452 se test: 1.82923
+('real ', array([ 32.69148176]), 'pred', array([ 28.25146675], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 9.28358269], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 27.28829384], dtype=float32))
+0 1 6 se train: 1.06285 se test: 1.87437
+('real ', array([ 32.69148176]), 'pred', array([ 29.57626152], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 12.85519695], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 31.38426781], dtype=float32))
+0 1 7 se train: 2.41706 se test: 1.84455
+('real ', array([ 32.69148176]), 'pred', array([ 31.80979729], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 12.46726131], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.16772079], dtype=float32))
+0 1 8 se train: 6.11767 se test: 1.78286
+('real ', array([ 32.69148176]), 'pred', array([ 31.09164619], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 13.04108715], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 27.75934601], dtype=float32))
+0 1 9 se train: 1.11356 se test: 1.8301
+('real ', array([ 32.69148176]), 'pred', array([ 34.95479202], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 12.34413242], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 30.21308136], dtype=float32))
+0 1 10 se train: 1.1561 se test: 1.76836
+('real ', array([ 32.69148176]), 'pred', array([ 33.73744965], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 11.94974518], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.46802902], dtype=float32))
+0 1 11 se train: 2.41464 se test: 1.78135
+('real ', array([ 32.69148176]), 'pred', array([ 30.10842514], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 9.99964905], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.88765144], dtype=float32))
+0 1 12 se train: 1.16358 se test: 1.74857
+('real ', array([ 32.69148176]), 'pred', array([ 34.88312531], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.46526718], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 22.02518654], dtype=float32))
+0 1 13 se train: 1.45937 se test: 1.74499
+('real ', array([ 32.69148176]), 'pred', array([ 35.33908463], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.10660839], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 24.66157341], dtype=float32))
+0 1 14 se train: 1.036 se test: 1.75656
+('real ', array([ 32.69148176]), 'pred', array([ 37.99302292], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 11.24888611], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.6176815], dtype=float32))
+0 1 15 se train: 1.3559 se test: 1.78625
+('real ', array([ 32.69148176]), 'pred', array([ 32.74118805], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.12166786], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 24.65841484], dtype=float32))
+0 1 16 se train: 1.26063 se test: 1.75215
+('real ', array([ 32.69148176]), 'pred', array([ 36.30054474], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.37874031], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 22.91679573], dtype=float32))
+0 1 17 se train: 2.35304 se test: 1.77127
+('real ', array([ 32.69148176]), 'pred', array([ 31.08615875], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.72991371], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 21.23545265], dtype=float32))
+0 1 18 se train: 1.22558 se test: 1.8137
+('real ', array([ 32.69148176]), 'pred', array([ 29.17896271], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.2409935], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 28.43917084], dtype=float32))
+0 2 0 se train: 0.678809 se test: 1.67936
+('real ', array([ 32.69148176]), 'pred', array([ 33.92747116], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 9.95146561], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.83045006], dtype=float32))
+0 2 1 se train: 4.05965 se test: 1.67137
+('real ', array([ 32.69148176]), 'pred', array([ 29.33422279], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 7.80634403], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 24.37576294], dtype=float32))
+0 2 2 se train: 0.908237 se test: 1.71336
+('real ', array([ 32.69148176]), 'pred', array([ 29.490942], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.5283289], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 24.28345108], dtype=float32))
+0 2 3 se train: 0.880987 se test: 1.67876
+('real ', array([ 32.69148176]), 'pred', array([ 36.41573334], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 12.87843513], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 30.27428246], dtype=float32))
+0 2 4 se train: 1.52204 se test: 1.70755
+('real ', array([ 32.69148176]), 'pred', array([ 29.45994568], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.98425388], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.64511108], dtype=float32))
+0 2 5 se train: 0.819495 se test: 1.70921
+('real ', array([ 32.69148176]), 'pred', array([ 28.35538292], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.03156853], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.78792953], dtype=float32))
+0 2 6 se train: 1.04527 se test: 1.74576
+('real ', array([ 32.69148176]), 'pred', array([ 28.08347893], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 11.45133209], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 30.24501991], dtype=float32))
+0 2 7 se train: 2.33982 se test: 1.70296
+('real ', array([ 32.69148176]), 'pred', array([ 30.65405846], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 11.74677658], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.04566765], dtype=float32))
+0 2 8 se train: 5.6225 se test: 1.66928
+('real ', array([ 32.69148176]), 'pred', array([ 31.08213425], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 13.34244537], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 29.60538673], dtype=float32))
+0 2 9 se train: 0.899226 se test: 1.68283
+('real ', array([ 32.69148176]), 'pred', array([ 34.07722473], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.87665176], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 27.55352783], dtype=float32))
+0 2 10 se train: 1.03344 se test: 1.66129
+('real ', array([ 32.69148176]), 'pred', array([ 33.48732376], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 11.10770893], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.1612339], dtype=float32))
+0 2 11 se train: 2.35521 se test: 1.69991
+('real ', array([ 32.69148176]), 'pred', array([ 31.24530983], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.28235435], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 27.48121262], dtype=float32))
+0 2 12 se train: 1.01795 se test: 1.62408
+('real ', array([ 32.69148176]), 'pred', array([ 36.07239914], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.66894341], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.81100273], dtype=float32))
+0 2 13 se train: 1.45538 se test: 1.64526
+('real ', array([ 32.69148176]), 'pred', array([ 37.52735138], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.5167141], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.63432312], dtype=float32))
+0 2 14 se train: 0.993484 se test: 1.6479
+('real ', array([ 32.69148176]), 'pred', array([ 38.04768372], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 9.81465435], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.96459198], dtype=float32))
+0 2 15 se train: 1.32058 se test: 1.7638
+('real ', array([ 32.69148176]), 'pred', array([ 32.64597321], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.99899292], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.40386391], dtype=float32))
+0 2 16 se train: 1.27339 se test: 1.66235
+('real ', array([ 32.69148176]), 'pred', array([ 34.67289734], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.42324543], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 23.12205887], dtype=float32))
+0 2 17 se train: 2.18692 se test: 1.641
+('real ', array([ 32.69148176]), 'pred', array([ 30.60890388], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.30614853], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 22.27924728], dtype=float32))
+0 2 18 se train: 1.09606 se test: 1.69761
+('real ', array([ 32.69148176]), 'pred', array([ 29.59368134], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.25907803], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 29.57602501], dtype=float32))
+repetition 1
+1 0 0 se train: 0.674954 se test: 1.58619
+('real ', array([ 32.69148176]), 'pred', array([ 31.95928955], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.63541508], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 28.2682209], dtype=float32))
+1 0 1 se train: 3.88508 se test: 1.58427
+('real ', array([ 32.69148176]), 'pred', array([ 26.73783112], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 7.84894133], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 24.93005943], dtype=float32))
+1 0 2 se train: 0.859063 se test: 1.6747
+('real ', array([ 32.69148176]), 'pred', array([ 28.14448166], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 9.17719173], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.02705193], dtype=float32))
+1 0 3 se train: 0.780666 se test: 1.57933
+('real ', array([ 32.69148176]), 'pred', array([ 33.43799973], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 13.59664726], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 29.64953041], dtype=float32))
+1 0 4 se train: 1.44483 se test: 1.61874
+('real ', array([ 32.69148176]), 'pred', array([ 27.60533142], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 11.08370209], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.96618271], dtype=float32))
+1 0 5 se train: 0.838524 se test: 1.61133
+('real ', array([ 32.69148176]), 'pred', array([ 27.59058571], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.91855431], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.73345947], dtype=float32))
+1 0 6 se train: 1.09764 se test: 1.6649
+('real ', array([ 32.69148176]), 'pred', array([ 27.20786858], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 12.51960945], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 30.87982941], dtype=float32))
+1 0 7 se train: 2.39622 se test: 1.59403
+('real ', array([ 32.69148176]), 'pred', array([ 30.01864433], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 11.39827156], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 25.26723862], dtype=float32))
+1 0 8 se train: 5.10417 se test: 1.59997
+('real ', array([ 32.69148176]), 'pred', array([ 29.21217346], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 13.17633629], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 29.99401855], dtype=float32))
+1 0 9 se train: 0.796499 se test: 1.60001
+('real ', array([ 32.69148176]), 'pred', array([ 32.61162949], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.22760201], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 27.03033066], dtype=float32))
+1 0 10 se train: 1.00147 se test: 1.59282
+('real ', array([ 32.69148176]), 'pred', array([ 31.84422684], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.88670158], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.89423561], dtype=float32))
+1 0 11 se train: 2.31587 se test: 1.646
+('real ', array([ 32.69148176]), 'pred', array([ 30.74264526], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.82246876], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 29.46814346], dtype=float32))
+1 0 12 se train: 0.975687 se test: 1.55426
+('real ', array([ 32.69148176]), 'pred', array([ 34.61611176], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.53549576], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.08686256], dtype=float32))
+1 0 13 se train: 1.45069 se test: 1.57953
+('real ', array([ 32.69148176]), 'pred', array([ 37.28730011], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.01280785], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 29.9602375], dtype=float32))
+1 0 14 se train: 0.896279 se test: 1.57649
+('real ', array([ 32.69148176]), 'pred', array([ 37.96326065], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.09430599], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 26.68140411], dtype=float32))
+1 0 15 se train: 1.28347 se test: 1.69748
+('real ', array([ 32.69148176]), 'pred', array([ 33.27846146], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 9.6863327], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 28.25579834], dtype=float32))
+1 0 16 se train: 1.28459 se test: 1.61466
+('real ', array([ 32.69148176]), 'pred', array([ 32.17420197], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.92268467], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 23.96847725], dtype=float32))
+1 0 17 se train: 2.06414 se test: 1.57176
+('real ', array([ 32.69148176]), 'pred', array([ 29.56089401], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 8.42825699], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 24.08543205], dtype=float32))
+1 0 18 se train: 1.06522 se test: 1.62274
+('real ', array([ 32.69148176]), 'pred', array([ 28.47149849], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 10.15995216], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 31.14141655], dtype=float32))
+1 1 0 se train: 0.624403 se test: 1.53377
+('real ', array([ 32.69148176]), 'pred', array([ 31.11628914], dtype=float32))
+('real ', array([ 10.49469464]), 'pred', array([ 9.99514198], dtype=float32))
+('real ', array([ 35.64897354]), 'pred', array([ 28.92861748], dtype=float32))
+Traceback (most recent call last):
+  File "/home/jan/pywork/project/final/nn_triangle_parts_pitch_2_RESCALE.py", line 516, in <module>
+    train()
+  File "/home/jan/pywork/project/final/nn_triangle_parts_pitch_2_RESCALE.py", line 458, in train
+    terrain, zmp, pitch, maxScale = getbatch(part_file_handle, start,end)
+  File "/home/jan/pywork/project/final/nn_triangle_parts_pitch_2_RESCALE.py", line 57, in getbatch
+    data = file_handle.root.data[:, start:fin]
+  File "/home/jan/.local/lib/python2.7/site-packages/tables/array.py", line 659, in __getitem__
+    arr = self._read_slice(startl, stopl, stepl, shape)
+  File "/home/jan/.local/lib/python2.7/site-packages/tables/array.py", line 765, in _read_slice
+    self._g_read_slice(startl, stopl, stepl, nparr)
+KeyboardInterrupt
+Closing remaining open files:../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_8.h5...done../data/parts2/data_ps_13.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_16.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_14.h5...done../data/parts2/data_ps_10.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_11.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_11.h5...done../data/parts2/data_ps_9.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_15.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_14.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_17.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_18.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_12.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_0.h5...done../data/parts2/data_ps_4.h5...done../data/parts2/data_ps_2.h5...done../data/parts2/data_ps_13.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_1.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_0.h5...done../data/parts2/data_ps_14.h5...done../data/parts2/data_ps_18.h5...done../data/parts2/data_ps_5.h5...done../data/parts2/data_ps_2.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_15.h5...done../data/parts2/data_ps_0.h5...done../data/parts2/data_ps_15.h5...done../data/parts2/data_ps_13.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_3.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_16.h5...done../data/parts2/data_ps_9.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_2.h5...done../data/parts2/data_ps_8.h5...done../data/parts2/data_ps_17.h5...done../data/parts2/data_ps_1.h5...done../data/parts2/data_ps_7.h5...done../data/parts2/data_ps_11.h5...done../data/parts2/data_ps_0.h5...done../data/parts2/data_ps_16.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_6.h5...done../data/parts2/data_ps_2.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_1.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_18.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_16.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_6.h5...done../data/parts2/data_ps_3.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_3.h5...done../data/parts2/data_ps_4.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_10.h5...done../data/parts2/data_ps_5.h5...done../data/parts2/data_ps_6.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_17.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_4.h5...done../data/parts2/data_ps_1.h5...done../data/parts2/data_ps_12.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_5.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_4.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_7.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_18.h5...done../data/parts2/data_ps_7.h5...done../data/parts2/data_ps_5.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_8.h5...done../data/parts2/data_ps_12.h5...done../data/parts2/data_ps_12.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_8.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_9.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_9.h5...done../data/parts2/data_ps_7.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_10.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_3.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_15.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_0.h5...done../data/parts2/data_ps_17.h5...done../data/parts2/data_ps_11.h5...done../data/parts2/data_ps_14.h5...done../data/parts2/data_ps_10.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_13.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_test.h5...done../data/parts2/data_ps_6.h5...done../data/parts2/data_ps_1.h5...done../data/parts2/data_ps_test.h5...done

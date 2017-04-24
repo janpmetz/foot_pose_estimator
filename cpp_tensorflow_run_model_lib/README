@@ -1,0 +1,20 @@
+The lib_tensorflow_model_run.so library loads a tensorflow model file,
+holds it in a session and allows to make predictions with this specific model.
+
+This library can be used in other projects for example in ROS to make predictions
+without the need to include other tensorflow sourcecode into the project.
+
+To compile it you need to have tensorflow installed. More information can be found here:
+https://medium.com/jim-fleming/loading-a-tensorflow-graph-with-the-c-api-4caaff88463f
+https://medium.com/@hamedmp/exporting-trained-tensorflow-models-to-c-the-right-way-cf24b609d183
+
+To start the build process:
+jan@pc1404:~/tftest/tensorflow/tensorflow/loader$ bazel build :lib_tensorflow_model_run.so
+
+after the build process the lib_tensorflow_model_run.so file is in
+~/tftest/tensorflow/bazel-bin/tensorflow/loader
+
+Finally include the .so file and the header into your project.
+
+(if you need to run the model without GPU support you have to ./configure bazel accordingly)
+

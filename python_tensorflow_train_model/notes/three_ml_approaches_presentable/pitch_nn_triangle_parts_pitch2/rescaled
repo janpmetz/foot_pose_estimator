@@ -1,0 +1,55 @@
+/usr/bin/python2.7 /home/jan/pywork/project/final/nn_triangle_parts_pitch_2_RESCALE.py
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcurand.so locally
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties:
+name: GeForce GTX 970
+major: 5 minor: 2 memoryClockRate (GHz) 1.253
+pciBusID 0000:01:00.0
+Total memory: 3.94GiB
+Free memory: 3.52GiB
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:755] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 970, pci bus id: 0000:01:00.0)
+Training...
+Model: models/triangle_nn_triangle_parts_pitch_2_RESCALE/triangle_11_11_00_21.ckpt
+repetition 0
+0 se train: 1.19447 se test: 2.42418
+('real ', array([ 63.56677008]), 'pred', array([ 46.90184402], dtype=float32))
+('real ', array([ 20.40635068]), 'pred', array([ 40.08119202], dtype=float32))
+('real ', array([ 69.31744856]), 'pred', array([ 58.14583588], dtype=float32))
+0 se train: 4.48982 se test: 2.29246
+('real ', array([ 63.56677008]), 'pred', array([ 47.10123062], dtype=float32))
+('real ', array([ 20.40635068]), 'pred', array([ 31.49011612], dtype=float32))
+('real ', array([ 69.31744856]), 'pred', array([ 59.21832275], dtype=float32))
+0 se train: 1.2176 se test: 2.25456
+('real ', array([ 63.56677008]), 'pred', array([ 46.99017715], dtype=float32))
+('real ', array([ 20.40635068]), 'pred', array([ 20.01826286], dtype=float32))
+('real ', array([ 69.31744856]), 'pred', array([ 48.31749344], dtype=float32))
+0 se train: 0.998917 se test: 2.14452
+('real ', array([ 63.56677008]), 'pred', array([ 61.36425018], dtype=float32))
+('real ', array([ 20.40635068]), 'pred', array([ 27.46753311], dtype=float32))
+('real ', array([ 69.31744856]), 'pred', array([ 67.7035141], dtype=float32))
+0 se train: 1.91721 se test: 2.12613
+('real ', array([ 63.56677008]), 'pred', array([ 56.34612274], dtype=float32))
+('real ', array([ 20.40635068]), 'pred', array([ 21.10678482], dtype=float32))
+('real ', array([ 69.31744856]), 'pred', array([ 64.75265503], dtype=float32))
+0 se train: 1.15328 se test: 2.13266
+('real ', array([ 63.56677008]), 'pred', array([ 53.73659897], dtype=float32))
+('real ', array([ 20.40635068]), 'pred', array([ 19.44566345], dtype=float32))
+('real ', array([ 69.31744856]), 'pred', array([ 69.19297028], dtype=float32))
+0 se train: 1.21293 se test: 2.09379
+('real ', array([ 63.56677008]), 'pred', array([ 54.50495911], dtype=float32))
+('real ', array([ 20.40635068]), 'pred', array([ 26.84365082], dtype=float32))
+('real ', array([ 69.31744856]), 'pred', array([ 78.40377045], dtype=float32))
+0 se train: 2.50854 se test: 2.03078
+('real ', array([ 63.56677008]), 'pred', array([ 52.2187767], dtype=float32))
+('real ', array([ 20.40635068]), 'pred', array([ 20.56849861], dtype=float32))
+('real ', array([ 69.31744856]), 'pred', array([ 64.14405823], dtype=float32))
+0 se train: 6.57752 se test: 1.97691
+('real ', array([ 63.56677008]), 'pred', array([ 49.26280975], dtype=float32))
+('real ', array([ 20.40635068]), 'pred', array([ 20.81416512], dtype=float32))
+('real ', array([ 69.31744856]), 'pred', array([ 63.51011658], dtype=float32))

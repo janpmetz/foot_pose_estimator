@@ -1,0 +1,3 @@
+lr: 0.001 
+bs: 128 
+method: Adam 

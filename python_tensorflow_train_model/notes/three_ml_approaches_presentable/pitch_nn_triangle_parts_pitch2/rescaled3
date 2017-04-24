@@ -1,0 +1,135 @@
+/usr/bin/python2.7 /home/jan/pywork/project/final/nn_triangle_parts_pitch_2_RESCALE.py
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcurand.so locally
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties:
+name: GeForce GTX 970
+major: 5 minor: 2 memoryClockRate (GHz) 1.253
+pciBusID 0000:01:00.0
+Total memory: 3.94GiB
+Free memory: 3.68GiB
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:755] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 970, pci bus id: 0000:01:00.0)
+Training...
+Model: models/triangle_nn_triangle_parts_pitch_2_RESCALE/triangle_11_11_13_23.ckpt
+repetition 0
+0 0 0 se train: 12.0158958435 se test: 25.2664661407
+('real ', array([ 38.14006205]), 'pred', array([ 27.99382019], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 21.12005997], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 30.68075943], dtype=float32))
+0 0 1 se train: 47.9859380722 se test: 23.836674571
+('real ', array([ 38.14006205]), 'pred', array([ 27.38138962], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 19.05485725], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 30.90306282], dtype=float32))
+0 0 2 se train: 13.375377059 se test: 23.6267673969
+('real ', array([ 38.14006205]), 'pred', array([ 24.93771744], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 12.82241249], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 22.45645714], dtype=float32))
+0 0 3 se train: 10.870262146 se test: 22.5308961868
+('real ', array([ 38.14006205]), 'pred', array([ 37.98945618], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 17.56692314], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 36.3544693], dtype=float32))
+0 0 4 se train: 19.2458910942 se test: 22.2004355192
+('real ', array([ 38.14006205]), 'pred', array([ 29.976717], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 15.58665085], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 30.244627], dtype=float32))
+0 0 5 se train: 11.5120988488 se test: 22.1938816309
+('real ', array([ 38.14006205]), 'pred', array([ 29.45944023], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 14.72579002], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 32.73896408], dtype=float32))
+0 0 6 se train: 12.1266134977 se test: 21.9957604408
+('real ', array([ 38.14006205]), 'pred', array([ 30.73385048], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 17.03068733], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 38.6556015], dtype=float32))
+0 0 7 se train: 25.1781513691 se test: 21.2241990566
+('real ', array([ 38.14006205]), 'pred', array([ 29.21590042], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 16.2971096], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 31.72096634], dtype=float32))
+0 0 8 se train: 70.521821022 se test: 20.7683270574
+('real ', array([ 38.14006205]), 'pred', array([ 27.72617722], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 14.30504894], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 31.8109684], dtype=float32))
+0 0 9 se train: 14.3204450011 se test: 21.5097763538
+('real ', array([ 38.14006205]), 'pred', array([ 35.2377243], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 18.10029411], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 39.94750214], dtype=float32))
+0 0 10 se train: 15.604465127 se test: 20.4911386371
+('real ', array([ 38.14006205]), 'pred', array([ 33.46987534], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 15.08694839], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 34.69049835], dtype=float32))
+0 0 11 se train: 27.5100588799 se test: 20.2391256094
+('real ', array([ 38.14006205]), 'pred', array([ 29.66927528], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 11.9588871], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 32.05563736], dtype=float32))
+0 0 12 se train: 13.6626741886 se test: 19.9036206007
+('real ', array([ 38.14006205]), 'pred', array([ 34.65262222], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 10.97236824], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 28.25603104], dtype=float32))
+0 0 13 se train: 15.9948595762 se test: 19.7500623465
+('real ', array([ 38.14006205]), 'pred', array([ 34.95580673], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 10.95210838], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 32.366642], dtype=float32))
+0 0 14 se train: 12.2419186234 se test: 19.8481491208
+('real ', array([ 38.14006205]), 'pred', array([ 40.47358322], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 14.99311829], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 36.30602646], dtype=float32))
+0 0 15 se train: 15.9520089626 se test: 19.7647397518
+('real ', array([ 38.14006205]), 'pred', array([ 29.44513893], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 7.4435091], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 28.14749336], dtype=float32))
+0 0 16 se train: 13.7802811861 se test: 19.8702566028
+('real ', array([ 38.14006205]), 'pred', array([ 32.32920456], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 11.76375008], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 27.47922134], dtype=float32))
+0 0 17 se train: 26.2765409946 se test: 19.8603832126
+('real ', array([ 38.14006205]), 'pred', array([ 27.98641968], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 9.07258797], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 26.13997841], dtype=float32))
+0 0 18 se train: 14.2664254904 se test: 20.254989624
+('real ', array([ 38.14006205]), 'pred', array([ 29.84505081], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 12.0925684], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 32.77372742], dtype=float32))
+0 1 0 se train: 7.5336702168 se test: 19.0131842494
+('real ', array([ 38.14006205]), 'pred', array([ 34.64341736], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 11.22961998], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 33.0724144], dtype=float32))
+0 1 1 se train: 42.8644824028 se test: 18.8402234316
+('real ', array([ 38.14006205]), 'pred', array([ 30.6021347], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 10.98659611], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 32.24018478], dtype=float32))
+0 1 2 se train: 10.0437944233 se test: 19.425932765
+('real ', array([ 38.14006205]), 'pred', array([ 27.28620529], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 8.78008175], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 26.68626976], dtype=float32))
+0 1 3 se train: 10.5064637661 se test: 18.940259099
+('real ', array([ 38.14006205]), 'pred', array([ 38.10154724], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 13.08452511], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 37.90436935], dtype=float32))
+0 1 4 se train: 15.8472669125 se test: 19.4524712563
+('real ', array([ 38.14006205]), 'pred', array([ 30.83408737], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 11.73702621], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 30.29862404], dtype=float32))
+0 1 5 se train: 9.01612383127 se test: 19.0307217836
+('real ', array([ 38.14006205]), 'pred', array([ 28.35969543], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 10.11814308], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 30.92348289], dtype=float32))
+0 1 6 se train: 11.2060074806 se test: 19.2341226339
+('real ', array([ 38.14006205]), 'pred', array([ 31.03141975], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 12.82507801], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 37.20830917], dtype=float32))
+0 1 7 se train: 22.7254450321 se test: 19.0515963435
+('real ', array([ 38.14006205]), 'pred', array([ 32.03175354], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 11.92116261], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 32.78584671], dtype=float32))
+0 1 8 se train: 64.4889442921 se test: 18.7319378257
+('real ', array([ 38.14006205]), 'pred', array([ 31.12359238], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 13.48060894], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 35.25076294], dtype=float32))
+0 1 9 se train: 11.6817827225 se test: 19.0489014387
+('real ', array([ 38.14006205]), 'pred', array([ 37.42930984], dtype=float32))
+('real ', array([ 12.24381041]), 'pred', array([ 14.3591013], dtype=float32))
+('real ', array([ 41.59046913]), 'pred', array([ 37.41036224], dtype=float32))

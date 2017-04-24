@@ -1,0 +1,6 @@
+model_checkpoint_path: "track_hull_11_10_16_24_model_final_model.ckpt"
+all_model_checkpoint_paths: "track_hull_11_10_16_24_model_4600.ckpt"
+all_model_checkpoint_paths: "track_hull_11_10_16_24_model_4700.ckpt"
+all_model_checkpoint_paths: "track_hull_11_10_16_24_model_4800.ckpt"
+all_model_checkpoint_paths: "track_hull_11_10_16_24_model_4900.ckpt"
+all_model_checkpoint_paths: "track_hull_11_10_16_24_model_final_model.ckpt"
