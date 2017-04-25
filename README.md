@@ -1,6 +1,15 @@
 # Multi contact point foot pose estimator
 
 The pose estimator makes a prediction of how a foot stands on uneven terrain, where the foot shape can be non-convex.
+<<<<<<< Updated upstream
+=======
+
+The framework contains three machine learning approaches to estimate the pose and one approach to calculate the pose deterministically using a non-convex hull algorithm.
+
+The best approach, the multi-contact-point-estimator and the deterministic algorithm are then implemented in ROS to make a path planning simulation.
+
+The framework consists of four parts:
+>>>>>>> Stashed changes
 
 The framework contains three machine learning approaches to estimate the pose using neural networks and one approach to calculate the pose deterministically using a non-convex hull algorithm.
 

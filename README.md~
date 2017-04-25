@@ -1,0 +1,17 @@
+# Multi contact point foot pose estimator
+
+The pose estimator makes a prediction of how a foot stands on uneven terrain, where the foot shape can be non-convex.
+
+The framework contains three approaches to estimate the pose and one approach to calculate the pose deterministically using a non-convex hull algorithm.
+
+The best approach, the multi-contact-point-estimator is then implemented in ROS to make a path planning simulation.
+
+## Generate training data in Matlab
+
+## Train a model in Python with Tensorflow
+
+## Compile a library to load and run the trained model file in other projects
+
+## Implementation is ROS to run a path planning simulation using the model
+
+
