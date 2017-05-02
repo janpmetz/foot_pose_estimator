@@ -30,7 +30,6 @@ cols = 10;
 
 %%%%%%%%%%%%%%%%%%%
 
-
 % result file name
 myTimeStamp = datestr(now, 'yymmdd_HHMMSS');    % for easier file sorting
 outputFileName = strcat(resultFileString,num2str(n),'_',myTimeStamp,'.csv');

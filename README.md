@@ -2,7 +2,7 @@
 
 The pose estimator makes a prediction of how a foot stands on uneven terrain, where the foot shape can be non-convex.
 
-The framework contains three machine learning approaches to estimate the pose using neural networks and one approach to calculate the pose deterministically using a non-convex hull algorithm.
+The framework contains three machine learning approaches to estimate the pose using neural networks and one approach to calculate the pose deterministically using a convex hull algorithm.
 
 + Multi contact point estimation
 + Contact area triangle estimation
