@@ -21,4 +21,5 @@ The framework consists of four parts:
 
 #### Implementation in ROS to run a path planning simulation using the model
 
+The ROS package can be found here: https://github.com/janpmetz/multi_contact_point_estimator
 
