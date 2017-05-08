@@ -1,6 +1,6 @@
 #include "tensorflow/core/public/session.h"
 #include "tensorflow/core/platform/env.h"
-#include "my_tensorflow_model_run_lib.h"
+#include "multi_contact_point_model_run_lib.h"
 
 //#include <limits.h>
 //#include <unistd.h>
@@ -9,14 +9,14 @@
 
 using namespace tensorflow;
 
-MyPredict::MyPredict() {
+MultiContactPointModel::MultiContactPointModel() {
 }
 
-MyPredict::~MyPredict() {
+MultiContactPointModel::~MultiContactPointModel() {
 }
 
-// loads the graph
-void MyPredict::init(std::string modelPath) {
+// takes a while bc loads the graph, preferably only load it once
+void MultiContactPointModel::init(std::string modelPath) {
 	
   // Initialize a tensorflow session
   //Session* session;
@@ -45,7 +45,7 @@ void MyPredict::init(std::string modelPath) {
 
 
 // model path for frozen model (including weights) with filename
-std::vector<float> MyPredict::modelPrediction(std::vector<float> pointsFlat, std::vector<float> zmpvec, int dataWidth, int dataHeight) {
+std::vector<float> MultiContactPointModel::make_prediction(std::vector<float> pointsFlat, std::vector<float> zmpvec, int dataWidth, int dataHeight) {
 
   std::vector<float> pred;
 
@@ -64,7 +64,7 @@ std::vector<float> MyPredict::modelPrediction(std::vector<float> pointsFlat, std
   // The session will initialize the outputs
   std::vector<tensorflow::Tensor> outputs;
 
-  // Run the session
+  // Run the session, evaluating our "c" operation from the graph
   Status status = session->Run(inputs, {"myypred"}, {}, &outputs);
   if (!status.ok()) {
     std::cout << "in loader.cc (tensorflow pred model) failed: "<< status.ToString() << "\n";
@@ -87,6 +87,6 @@ std::vector<float> MyPredict::modelPrediction(std::vector<float> pointsFlat, std
 }
 
 // Free any resources used by the session
-void MyPredict::close() {
+void MultiContactPointModel::close() {
   session->Close();
 }

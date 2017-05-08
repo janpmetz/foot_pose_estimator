@@ -1,7 +1,7 @@
 cc_binary(
-    name = "lib_tensorflow_model_run.so",
+    name = "lib_multi_contact_point_model.so",
     linkshared = 1,
-    srcs = ["my_tensorflow_model_run_lib.cc", "my_tensorflow_model_run_lib.h"],
+    srcs = ["multi_contact_point_model_run_lib.cc", "multi_contact_point_model_run_lib.h"],
     deps = [
         "//tensorflow/core:tensorflow",
     ]
