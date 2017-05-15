@@ -45,16 +45,16 @@ void MultiContactPointModel::init(std::string modelPath) {
 
 
 // model path for frozen model (including weights) with filename
-std::vector<float> MultiContactPointModel::make_prediction(std::vector<float> pointsFlat, std::vector<float> zmpvec, int dataWidth, int dataHeight) {
+std::vector<double> MultiContactPointModel::make_prediction(std::vector<double> pointsFlat, std::vector<double> zmpvec, int dataWidth, int dataHeight) {
 
-  std::vector<float> pred;
+  std::vector<double> pred;
 
   // for matrix shaped input to nn
   int length = dataWidth*dataHeight;
   Tensor X(DT_FLOAT, TensorShape({1,length}));
   auto mat = X.tensor<float, 2>();
   for(int i = 0; i < length; i++) {
-	    mat(0, i) = pointsFlat.at(i);
+	    mat(0, i) = (float)pointsFlat.at(i);
   }
 
   std::vector<std::pair<string, tensorflow::Tensor>> inputs = {
@@ -76,7 +76,7 @@ std::vector<float> MultiContactPointModel::make_prediction(std::vector<float> po
   for(int i = 0; i < dataHeight; i++) {
     for(int j = 0; j < dataWidth; j++) {
       auto out_elem = output_mat(0, (i*dataWidth)+j);
-      pred.push_back(out_elem);
+      pred.push_back((double)out_elem);
     }
   }
 
